@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> </title>
+	<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js"></script>
+    <style>
+        .highlight {
+            background: yellow;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+		
+		h1 { font-family: 'Roboto Condensed', sans-serif; }
+		
+		#Mycontainer{
+		
+		 margin-left: 10%;
+		 margin-right : 20%;
+		
+		}
+		body {
+		  text-align : center;
+		
+		}
+		
+    </style>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+	
+	
+</head>
+<body> 
+   <div id ="MyContainer" >
+    <h1> Sravya Gudipudi</h1>
+ 
+    <ul id="nav">
+      <li> <a href="/">Home</a> </li>
+      <li class="highlight"> <a href="/portfolio"> Portfolio </a> </li>
+      <li> <a href="/about">About</a> </li>
+      <li> <a href="/contact">Contact</a> </li>
+    </ul>
+ 
+    <p> This is a paragraph (albeit a very <em>short</em> paragraph). Also, <a href="http://google.com">here&#39;s a link</a>. </p>
+	
+	</div>
+    <script>
+	 dojo.query("h1").onclick( function () {   alert(" shut up!!!");}); 
+	</script>
+</body>
+</html>
